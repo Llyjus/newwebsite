@@ -1,10 +1,15 @@
 body{
     display: flexbox;
     background-image: url('tomo.jpg');
+    width: 100%;
 }
+
 #ave{
     display: flex;
     justify-content: center;
+}
+
+video{
     width:90%;
     text-align: center;
 }
