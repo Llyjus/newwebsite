@@ -5,14 +5,30 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0,width=device-width" />
     <title>Ave Mujica</title>
-    <link rel="stylesheet" href="Ave/index.css">
-    <link rel="stylesheet" </head>
+    <link rel="stylesheet" href='background.css'>
+</head>
 
 <body>
     <div class="video-container">
         <video autoplay muted loop id="togetoge">
             <source src="togetoge.mp4" type="video/mp4">
         </video>
+        <script>
+            document.addEventListener('click', () => {
+                const video = document.getElementById('togetoge');
+                video.muted = false;
+                video.play();
+            });
+
+            // 监听更多交互事件
+            ['keydown', 'mousemove', 'scroll'].forEach(event => {
+                document.addEventListener(event, () => {
+                    const video = document.getElementById('togetoge');
+                    video.muted = false;
+                    video.play();
+                });
+            });
+        </script>
     </div>
     <nav>
         <input type="checkbox" id="navcheck" />
@@ -39,6 +55,8 @@
             <p>い</p>
             <p>し</p>
         </center>
+    <input type="checkbox" id="but">
+    <label for="but"><b>这个按钮能忍住不点的也是神人了</b></label>
     </main>
 </body>
 
