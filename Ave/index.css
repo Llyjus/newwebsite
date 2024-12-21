@@ -1,29 +1,25 @@
 body{
     display: flexbox;
-    background-color: rgb(170, 211, 128);
-    background-image: url('tomo.jpg')
+    background-image: url('tomo.jpg');
 }
-.video{
+#ave{
     display: flex;
     justify-content: center;
-}
-video{
     width:90%;
     text-align: center;
 }
-
 h1{
     text-align: center;
     font-size: 3rem;
     text-decoration: line-through;
     color: rgb(195, 167, 255);
 }
-
 main p{
     font-size: 1rem;
     text-decoration: line-through;
     color: rgb(255, 0, 0);
 }
+
 
 nav{
     position:fixed;
