@@ -1,6 +1,7 @@
 body{
     display: flexbox;
     background-color: rgb(170, 211, 128);
+    background-image: rel('tomo.jpg')
 }
 .video{
     display: flex;
