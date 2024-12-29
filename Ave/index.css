@@ -4,7 +4,7 @@ body{
     width: 100%;
 }
 
-#ave{
+#ave, #ave2, #ave3{
     display: flex;
     justify-content: center;
 }
